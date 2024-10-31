@@ -15,11 +15,11 @@
 
         <Rectangle Grid.RowSpan="1" Fill="LightPink"/>
 
-        <TextBox x:Name="UsernameBox" HorizontalAlignment="Center" Margin="0,100,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="232" Height="36" TextAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"/>
+        <TextBox x:Name="usernameBox" HorizontalAlignment="Center" Margin="0,100,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="232" Height="36" TextAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"/>
 
         <TextBox x:Name="passwordBox" HorizontalAlignment="Center" Margin="0,161,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="232" Height="36" TextAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"/>
 
-        <Button Content="Enter" HorizontalAlignment="Center" Margin="0,231,0,0" Grid.Row="1" VerticalAlignment="Top" Height="30" Width="70"/>
+        <Button Content="Enter" HorizontalAlignment="Center" Margin="0,231,0,0" Grid.Row="1" VerticalAlignment="Top" Height="30" Width="70" Click="Button_Click"/>
 
         <Label Content="Username" HorizontalAlignment="Left" Margin="207,105,0,0" Grid.Row="1" VerticalAlignment="Top"/>
 
