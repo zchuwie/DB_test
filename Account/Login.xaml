@@ -1,0 +1,35 @@
+﻿<Window x:Class="Account.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Account"
+        mc:Ignorable="d"
+        Title="Log In" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Rectangle Grid.RowSpan="1" Fill="LightPink"/>
+
+        <TextBox x:Name="UsernameBox" HorizontalAlignment="Center" Margin="0,100,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="232" Height="36" TextAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"/>
+
+        <TextBox x:Name="passwordBox" HorizontalAlignment="Center" Margin="0,161,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="232" Height="36" TextAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial"/>
+
+        <Button Content="Enter" HorizontalAlignment="Center" Margin="0,231,0,0" Grid.Row="1" VerticalAlignment="Top" Height="30" Width="70"/>
+
+        <Label Content="Username" HorizontalAlignment="Left" Margin="207,105,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+
+        <Label Content="Password" HorizontalAlignment="Left" Margin="211,166,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+
+        <Label Content="LOGIN" HorizontalAlignment="Center" Margin="0,32,0,0" Grid.Row="1" VerticalAlignment="Top" Width="112" FontWeight="Bold" FontSize="30" HorizontalContentAlignment="Center"/>
+
+        <Label Content="No account?" HorizontalAlignment="Left" Margin="383,293,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+
+        <TextBlock Text="Click Here." MouseDown="toSignup_MouseDown" HorizontalAlignment="Left" Margin="460,298,0,0" Grid.Row="1" VerticalAlignment="Top" TextDecorations="Underline"/>
+
+    </Grid>
+</Window>
